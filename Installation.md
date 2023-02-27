@@ -21,6 +21,15 @@
     2. Project belongs to skills
         php artisan make:model Project -m
 
+## Mass Assigment and Relationship
+    Implemennted the Mass Assigments and Relationships
+
+## Controller and Routes
+    Create the controllers for both Models 
+        php artisan make:controller SkillController -r
+        php artisan make:controller ProjectController -r
+    Add the routes
+
 ## Create Layout and Components
     1. create app layout
     2. navbar
