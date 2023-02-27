@@ -17,7 +17,9 @@
 
 ##  Database
     1. Skill
+        php artisan make:model Skill -m
     2. Project belongs to skills
+        php artisan make:model Project -m
 
 ## Create Layout and Components
     1. create app layout
