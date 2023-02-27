@@ -28,7 +28,15 @@
     Create the controllers for both Models 
         php artisan make:controller SkillController -r
         php artisan make:controller ProjectController -r
-    Add the routes
+    Add the routes  both Projects and Skills
+
+## Add the Links to display pages
+    Add link into the AuthenticatedLayout.vue page 
+    Add the route name.
+
+## Create Page for Skills
+    Create the pages inside the Pages folder called Skills
+    Create the components index.vue
 
 ## Create Layout and Components
     1. create app layout
