@@ -37,6 +37,19 @@
 ## Create Page for Skills
     Create the pages inside the Pages folder called Skills
     Create the components index.vue
+      eg resources/js/Pages/Skills/Index.vue
+    - Use the dashboard layout to implement to all pages
+
+## Display the Links
+    Add the New Skills Button Link to create "New Skill"
+
+## Display the UI Create
+
+
+
+
+
+
 
 ## Create Layout and Components
     1. create app layout
