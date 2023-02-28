@@ -54,6 +54,13 @@
     - Create the UI  for create a projects
     - Add logic insidee the controller
 
+## Display the skills on the table
+    - We gonna use the flowbite
+        https://flowbite.com/docs/components/tables/
+    - Copy the table and paste on skills.index
+    - Add the logic inside the index method of skillController
+    - Create a skillResource
+        php artisan make:resource SkillResource
 
 
 
