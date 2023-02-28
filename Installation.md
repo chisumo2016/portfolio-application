@@ -44,7 +44,10 @@
     Add the New Skills Button Link to create "New Skill"
 
 ## Display the UI Create
-
+    - Display the form and store in database .
+    - Let us use the Login.vue file
+    - Add the logic in store method inside the controller
+    - Open the filsystems.php  FILESYSTEM_DISK put in env. file
 
 
 
