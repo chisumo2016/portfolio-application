@@ -62,6 +62,14 @@
     - Create a skillResource
         php artisan make:resource SkillResource
 
+## Display the Projects on the table
+    - We gonna use the flowbite
+        https://flowbite.com/docs/components/tables/
+    - Copy the table and paste on projects.index
+    - Add the logic inside the index method of projectController
+    - Create a projectResource
+        php artisan make:resource  ProjectResource
+
 
 
 
