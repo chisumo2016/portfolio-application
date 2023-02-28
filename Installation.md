@@ -46,8 +46,13 @@
 ## Display the UI Create
     - Display the form and store in database .
     - Let us use the Login.vue file
-    - Add the logic in store method inside the controller
+    - Add the logic in store method inside the skillController
     - Open the filsystems.php  FILESYSTEM_DISK put in env. file
+
+    - Add the logic in store method inside the projectController
+            Load the skill as well in create method 
+    - Create the UI  for create a projects
+    - Add logic insidee the controller
 
 
 
