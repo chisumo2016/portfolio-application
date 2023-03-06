@@ -52,7 +52,9 @@
                                 <img :src="project.image" alt="" class="w-12 h-12 rounded-full">
                             </td>
                             <td class="px-6 py-4">
-                                Edit / Delete
+                                <Link :href="route('skills.edit', skill.id)"
+                                    class="font-medium text-blue-500 hover:text-blue-700 mr-2 ">Edit
+                                </Link>
                             </td>
                         </tr>
 

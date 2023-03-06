@@ -61,6 +61,7 @@
     - Add the logic inside the index method of skillController
     - Create a skillResource
         php artisan make:resource SkillResource
+     - Display all the skills in index .vue
 
 ## Display the Projects on the table
     - We gonna use the flowbite
@@ -69,6 +70,23 @@
     - Add the logic inside the index method of projectController
     - Create a projectResource
         php artisan make:resource  ProjectResource
+    - Display all the projects in index .vue
+
+## EDIT / DELETE  (SKILL)
+    - add the functionality of skill 
+    - Add the link for edit and delete inside  skills index.
+    - Go to skillController and add the logic into edit
+    - Copy the Create.vue page and save as Edit.vue page
+    - Go to skillController and add the logic into  update method
+    - Go to skillController and add the logic into  delete method
+
+## EDIT / DELETE  (PROJECT)
+    - add the functionality of skill 
+    - Add the link for edit and delete inside  skills index.
+    - Go to skillController and add the logic into edit
+    - Copy the Create.vue page and save as Edit.vue page
+    - Go to skillController and add the logic into  update method
+    - Go to skillController and add the logic into  delete method
 
 
 
