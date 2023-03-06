@@ -51,8 +51,10 @@
     - Add into welcome page
             resources/js/Pages/Welcome.vue
 
-## 
-    
+##  CREATE THE FOOTER
+    - Create a new file inside the FrondEnd Component called Footer
+    - Design the  footer UI with tailwindcss
+    - Add inside the Layout/Frondend.vue
 
 
 
