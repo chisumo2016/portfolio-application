@@ -17,12 +17,11 @@
                             type="text"
                             class="mt-1 block w-full"
                             v-model="form.name"
-                            required
                             autofocus
                             autocomplete="name"
                         />
 
-                        <InputError class="mt-2" :message="form.errors.name" />
+                        <InputError class="mt-2" :message="$page.props.errors.name" />
                     </div>
                     <div class="mt-2">
                         <InputLabel for="image" value="Image" />
@@ -33,8 +32,7 @@
                             class="mt-1 block w-full"
                             @input="form.image = $event.target.files[0]"
                         />
-
-                        <InputError class="mt-2" :message="form.errors.image" />
+                        <InputError class="mt-2" :message="$page.props.errors.image" />
                     </div>
 
 

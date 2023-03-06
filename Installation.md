@@ -80,13 +80,21 @@
     - Go to skillController and add the logic into  update method
     - Go to skillController and add the logic into  delete method
 
-## EDIT / DELETE  (PROJECT)
+## EDIT / DELETE  (PROJECTS)
     - add the functionality of project 
     - Add the link for edit and delete inside  project index.
     - Go to projectController and add the logic into edit
     - Copy the Create.vue page and save as Edit.vue page
-    - Go to skillController and add the logic into  update method
-    - Go to skillController and add the logic into  delete method
+    - Go to ProjectController and add the logic into  update method
+    - Go to ProjectController and add the logic into  delete method
+
+## FLUSH MESSAGE
+        https://inertiajs.com/shared-data#flash-messages
+    - add the flush message
+    - Open the resources/js/Layouts/AuthenticatedLayout.vue and add div
+    - Open the projectController 
+    - As we use the Inertia , :message="form.errors.image" /> 
+            :message="$page.props.errors.image"
 
 
 
