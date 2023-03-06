@@ -1,0 +1,55 @@
+### INSTALATION
+    - composer require laravel/breeze --dev
+    - php artisan breeze:install vue
+    - php artisan migrate
+    - npm install
+    - npm run dev
+
+## Resources
+    https://tailwindcomponents.com/
+    https://tailwindui.com/
+    https://flowbite.com/
+    https://daisyui.com/
+    https://merakiui.com/
+    https://tailwind-kit.com/
+    https://tailgrids.com/
+    https://hyperui.com/
+    https://colorhunt.co/palettes/popular
+
+
+
+## Create Sections components
+    1.Hero section
+    2.About
+    3.Call to action
+    4.Portifolio
+    5.Skills section
+    6.Services section
+    7.Contact section
+ ## Contact Mail
+ ## Contact Controller
+
+
+### CUSTOMIZING THE TAILWINDCSS
+    https://tailwindcss.com/docs/configuration
+    - Open the tailwind.config.js
+         fontFamily:{
+            primary: "Playfair Display",
+            body: "work Sans"
+        }
+    - Use the google font 
+    - Add in app.css OR
+    - Add in app.css
+    
+
+
+
+
+
+
+
+
+
+
+
+
