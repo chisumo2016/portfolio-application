@@ -10,7 +10,14 @@
                 <p class="pt-4 pb-8 md:pt-6 md:pb-12 max-w-[480px] text-lg text-center lg:text-left">
                     Lorem ipsum dolor sit amet, consectetur adipisicing elit. At culpa ea eligendi, eveniet laboriosam laudantium ut! Ab atque consequuntur dolores ducimus eum eveniet, expedita fugit harum hic id in iusto laboriosam nobis pariatur quasi quia rerum tenetur unde velit veniam?
                 </p>
-                <button class="btn btn-md bg-accent hover:bg-light-secondary  hover:text-light-tail-500 md:btn-lg transition-all">
+                <button class="
+                        btn btn-md
+                         bg-accent
+                         hover:bg-light-secondary
+                         hover:text-light-tail-500
+                         dark:hover:bg-light-secondary
+                         dark:hover:text-dark-navy-100
+                         md:btn-lg transition-all">
                     Work with me
                 </button>
             </div>

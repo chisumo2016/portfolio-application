@@ -61,6 +61,11 @@
     - Design Hero compoonent with  with tailwindcss
     - Add the hero component in welcome.vue
 
+## PROMOTE SECTION
+    - Creete a promote component 
+    - Design promote compoonent with  with tailwindcss
+    - Add the promote component in welcome.vue
+
 
 
 
