@@ -56,6 +56,11 @@
     - Design the  footer UI with tailwindcss
     - Add inside the Layout/Frondend.vue
 
+## HERO SECTION 
+    - Creete a Hero component 
+    - Design Hero compoonent with  with tailwindcss
+    - Add the hero component in welcome.vue
+
 
 
 
