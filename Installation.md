@@ -81,9 +81,9 @@
     - Go to skillController and add the logic into  delete method
 
 ## EDIT / DELETE  (PROJECT)
-    - add the functionality of skill 
-    - Add the link for edit and delete inside  skills index.
-    - Go to skillController and add the logic into edit
+    - add the functionality of project 
+    - Add the link for edit and delete inside  project index.
+    - Go to projectController and add the logic into edit
     - Copy the Create.vue page and save as Edit.vue page
     - Go to skillController and add the logic into  update method
     - Go to skillController and add the logic into  delete method
