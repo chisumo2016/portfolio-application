@@ -40,6 +40,18 @@
     - Use the google font 
     - Add in app.css OR
     - Add in app.css
+
+## CREATE A LAYOUT  (HEADER / NAV)
+    - create a new FrontEnd.vue
+            resources/js/Layouts/FrontEnd.vue
+    - Create a folder called Frontend inside Components
+            resources/js/Components/FrontEnd
+    - Create a file called Header.vue
+            https://flowbite.com/docs/components/navbar/
+    - Add into welcome page
+            resources/js/Pages/Welcome.vue
+
+## 
     
 
 
