@@ -6,6 +6,7 @@
     <!--    Promote Section tail-100 -->
         <Promote></Promote>
     <!--    About Section  secondary -->
+        <About></About>
     <!--    Skills Section  tail-100 -->
     <!--    Project Section  primary-->
     <!--    Service Section Secondary-->
@@ -19,6 +20,7 @@ import { Head} from '@inertiajs/vue3';
 import FrontEndLayout from "@/Layouts/FrontEnd.vue";
 import Hero from "@/Components/FrontEnd/Hero.vue";
 import Promote from "@/Components/FrontEnd/Promote.vue";
+import About from "@/Components/FrontEnd/About.vue";
 
 </script>
 

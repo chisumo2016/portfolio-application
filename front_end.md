@@ -66,6 +66,11 @@
     - Design promote compoonent with  with tailwindcss
     - Add the promote component in welcome.vue
 
+## ABOUT SECTION
+    - Creete a about component 
+    - Design about compoonent with  with tailwindcss
+    - Add the about component in welcome.vue
+
 
 
 
