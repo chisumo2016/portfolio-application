@@ -119,9 +119,16 @@
     - Add the promote component in welcome.vue
 
 
-
-
-
+## LOGIC FOR CONTACT
+    - create a contact controller
+        php artisan make:controller ContactController
+    - create a contact request
+        php artisan make:request ContactRequest
+    - Generate the Mail
+        https://laravel.com/docs/10.x/mail#generating-mailables
+            php artisan make:mail ContactMail
+    - Add the route
+    - Create the invoke 
 
 
 

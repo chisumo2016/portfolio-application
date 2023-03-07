@@ -99,19 +99,30 @@
                         </div>
                     </div>
                 </div>
-                <form class="space-y-8 w-full max-w-md">
+                <form
+                    @submit.prevent="submit"
+                    class="space-y-8 w-full max-w-md">
+                    <div
+                        v-if="showMessage"
+                        class="m-2 p-4 bg-light-tail-500 dark:bg-dark-navy-100 text-light-secondary rounded-lg">
+                        Thank you for contacting me
+                    </div>
                     <div class="flex gap-8">
                         <div>
-                            <input type="text"  class="input" placeholder="Enter Your Name" />
-                            <span class="text-sm m-2 text-red-400">Error</span>
+                            <input
+                                v-model="form.name"
+                                type="text"  class="input" placeholder="Enter Your Name" />
+                            <span v-if="form.errors.name" class="text-sm m-2 text-red-400">{{ form.errors.name}}</span>
                         </div>
                         <div>
-                            <input type="email"  class="input" placeholder="Enter Your Email" />
-                            <span class="text-sm m-2 text-red-400">Error</span>
+                            <input
+                                v-model="form.email"
+                                type="email"  class="input" placeholder="Enter Your Email" />
+                            <span v-if="form.errors.email" class="text-sm m-2 text-red-400">{{ form.errors.email}}</span>
                         </div>
                     </div>
-                    <textarea name="" class="textarea" placeholder="Your Message" spellcheck="false"></textarea>
-                    <span class="text-sm m-2 text-red-400">Error</span>
+                    <textarea v-model="form.body" class="textarea" placeholder="Your Message" spellcheck="false"></textarea>
+                    <span v-if="form.errors.body" class="text-sm m-2 text-red-400">{{ form.errors.body}}</span>
                     <button class="btn btn-lg bg-accent hover:bg-secondary text-white">Send Message</button>
                 </form>
             </div>
@@ -119,5 +130,31 @@
     </section>
 </template>
 <script setup>
+import { useForm } from '@inertiajs/vue3'
+import {ref} from "vue";
 
+const showMessage = ref(false);
+
+const form = useForm({
+    name: "",
+    email: "",
+    body:  "",
+})
+
+function  setShowMessage(value){
+    showMessage.value = value;
+}
+
+function  cleanForm() {
+    form.reset();
+    setShowMessage(true)
+    setTimeout(() => setShowMessage(false), 2000)
+}
+
+const submit = () =>{
+    form.post(route('contact'),{
+        preserveScroll:true,
+        onSuccess: () => cleanForm()  //form.reset()
+    });
+}
 </script>
