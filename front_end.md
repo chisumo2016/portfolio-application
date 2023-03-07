@@ -71,6 +71,17 @@
     - Design about compoonent with  with tailwindcss
     - Add the about component in welcome.vue
 
+## SKILLS SECTION
+    - we need to get the skills from database .
+    - Create the welcome controller
+            php artisan make:controller WelcomeController
+    - Add the web route
+    - Add the logic inside the welcome controller to render the page
+    - Open the welcome page.vue and define Props
+    - Create skills file  component 
+    - Design about compoonent with  with tailwindcss
+    - Add the about component in welcome.vue
+
 
 
 
