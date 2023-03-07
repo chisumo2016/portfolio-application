@@ -14,7 +14,7 @@
     <!--    Service Section Secondary-->
         <Services></Services>
     <!--    Contact Section primary-->
-
+        <contact></contact>
     </FrontEndLayout>
 </template>
 
@@ -27,6 +27,7 @@ import About from "@/Components/FrontEnd/About.vue";
 import Skills from "@/Components/FrontEnd/Skills.vue";
 import Portifolio from "@/Components/FrontEnd/Portifolio.vue";
 import Services from "@/Components/FrontEnd/Services.vue";
+import Contact from "@/Components/FrontEnd/Contact.vue";
 
 defineProps({
     skills: Object,

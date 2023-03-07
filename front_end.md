@@ -15,6 +15,7 @@
     https://tailgrids.com/
     https://hyperui.com/
     https://colorhunt.co/palettes/popular
+    https://heroicons.com/
 
 
 
@@ -109,7 +110,12 @@
 
 ## SERVICES SECTION
     - Creete a services component 
-    - Design promote compoonent with  with tailwindcss
+    - Design services compoonent with  with tailwindcss
+    - Add the promote component in welcome.vue
+
+## CONTACT SECTION
+    - Creete a services component 
+    - Design services compoonent with  with tailwindcss
     - Add the promote component in welcome.vue
 
 
