@@ -9,7 +9,8 @@
         <About></About>
     <!--    Skills Section  tail-100 -->
         <Skills :skills="skills"></Skills>
-    <!--    Project Section  primary-->
+    <!--    Portfolio/Project Section  primary-->
+        <Portifolio :skills="skills" :projects="projects"></Portifolio>
     <!--    Service Section Secondary-->
     <!--    Contact Section primary-->
 
@@ -23,9 +24,11 @@ import Hero from "@/Components/FrontEnd/Hero.vue";
 import Promote from "@/Components/FrontEnd/Promote.vue";
 import About from "@/Components/FrontEnd/About.vue";
 import Skills from "@/Components/FrontEnd/Skills.vue";
+import Portifolio from "@/Components/FrontEnd/Portifolio.vue";
 
 defineProps({
-    skills: Object
+    skills: Object,
+    projects: Object
 })
 </script>
 

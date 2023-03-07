@@ -79,9 +79,26 @@
     - Add the logic inside the welcome controller to render the page
     - Open the welcome page.vue and define Props
     - Create skills file  component 
-    - Design about compoonent with  with tailwindcss
+    - pass the props in the skills.vue
+    - loop tthrough skills.vue
+    - Design skills compoonent with  with tailwindcss
     - Add the about component in welcome.vue
 
+## PORTFOLIO SECTION
+     - Creete Portfolio file  component
+     - In portifolio/project we need the skills as well
+     - Load the projects in the welcome controller with relationship
+     - We need to define the projects as props in welcome page
+     - pass the props into components of Portiolio
+     - Open the Portfolio  file and define the props
+     - Design Portfolio compoonent with  with tailwindcss
+     - Create a new component called Projects.vue
+     - Filtter the projects based on skills
+     - Loop through skills and projects in projects
+     - Add the Projects component in welcome.vue
+     - Pass the props inside the component
+     - Add a new  single component called Project.vue and design
+     - Attach the single project.vue into Projects.vue file
 
 
 
