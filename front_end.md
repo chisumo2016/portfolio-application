@@ -105,6 +105,12 @@
     - Open the Projects.vue file
     - create const for props
     - define  const filteredProjects = ref(props.projects.data)
+    - Show the buttton 
+
+## SERVICES SECTION
+    - Creete a services component 
+    - Design promote compoonent with  with tailwindcss
+    - Add the promote component in welcome.vue
 
 
 

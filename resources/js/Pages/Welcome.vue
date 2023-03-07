@@ -12,6 +12,7 @@
     <!--    Portfolio/Project Section  primary-->
         <Portifolio :skills="skills" :projects="projects"></Portifolio>
     <!--    Service Section Secondary-->
+        <Services></Services>
     <!--    Contact Section primary-->
 
     </FrontEndLayout>
@@ -25,6 +26,7 @@ import Promote from "@/Components/FrontEnd/Promote.vue";
 import About from "@/Components/FrontEnd/About.vue";
 import Skills from "@/Components/FrontEnd/Skills.vue";
 import Portifolio from "@/Components/FrontEnd/Portifolio.vue";
+import Services from "@/Components/FrontEnd/Services.vue";
 
 defineProps({
     skills: Object,
