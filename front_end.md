@@ -98,7 +98,13 @@
      - Add the Projects component in welcome.vue
      - Pass the props inside the component
      - Add a new  single component called Project.vue and design
+     - Pass the props
      - Attach the single project.vue into Projects.vue file
+
+## FILTERING
+    - Open the Projects.vue file
+    - create const for props
+    - define  const filteredProjects = ref(props.projects.data)
 
 
 
