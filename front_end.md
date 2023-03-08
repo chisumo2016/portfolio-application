@@ -131,7 +131,24 @@
     - Create the invoke 
 
 ## DESIGN SOCIAL ICON 
-    - Links of social icon
+    - Links of social icon in Hero section
+
+## NAVIGATION SECTION
+    - 
+    - Install motion for good transition
+        npm install @vueuse/motion
+    - Read Doc https://motion.vueuse.org/introduction.html
+    - Add globall in app.js
+    - Add in contact.vue on div
+            v-motion
+                :initial="{
+                  opacity: 0,
+                  y: 100,
+                }"
+                :enter="{
+                  opacity: 1,
+                  y: 0,
+                }"
 
 
 
